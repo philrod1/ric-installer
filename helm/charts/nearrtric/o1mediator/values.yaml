@@ -19,7 +19,7 @@ o1mediator:
   imagePullPolicy: IfNotPresent
   image:
     name: ric-plt-o1
-    tag: 0.3.1
+    tag: 0.6.2
     registry: "nexus3.o-ran-sc.org:10002/o-ran-sc"
 
   prometheusAMUrl: "r4-infrastructure-prometheus-alertmanager:80"
