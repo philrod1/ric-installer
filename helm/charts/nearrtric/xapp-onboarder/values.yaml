@@ -29,7 +29,7 @@ xapponboarder:
    xapponboarder:
      registry: "nexus3.o-ran-sc.org:10004/o-ran-sc"
      name: xapp-onboarder
-     tag: 1.0.0
+     tag: 1.0.8
    chartmuseum:
      registry: "docker.io"
      name: chartmuseum/chartmuseum
