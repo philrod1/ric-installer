@@ -24,7 +24,7 @@ e2term:
     imagePullPolicy: IfNotPresent
     image:
       name: ric-plt-e2
-      tag: 3.0.1
+      tag: 6.0.3
       registry: "nexus3.o-ran-sc.org:10002/o-ran-sc"
 
     privilegedmode: false

@@ -22,16 +22,16 @@ nearrtric:
 
   # Optional Components
   # TODO: Document when these optional components are enabled.
-  installA1Mediator: false
-  installAlarmManager: false
-  installJaegerAdapter: false
-  installO1Mediator: false
-  installVespamgr: false
-  installXappOnboarder: false
+  installA1Mediator: true
+  installAlarmManager: true
+  installJaegerAdapter: true
+  installO1Mediator: true
+  installVespamgr: true
+  installXappOnboarder: true
 
   # Third Party Components
   # TODO: Add documentation when these third party components are enabled.
-  installInfluxDB: false
+  installInfluxDB: true
 
   volume1:
     size: 1Gi

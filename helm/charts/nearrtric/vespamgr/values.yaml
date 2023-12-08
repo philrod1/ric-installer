@@ -24,7 +24,7 @@ vespamgr:
   replicaCount: 1
   image:
     name: ric-plt-vespamgr
-    tag: 0.4.0
+    tag: 0.7.5
     registry: "nexus3.o-ran-sc.org:10002/o-ran-sc"
 
   # Service ports are now defined in

@@ -19,7 +19,7 @@ alarmmanager:
   imagePullPolicy: IfNotPresent
   image:
     name: ric-plt-alarmmanager
-    tag: 0.5.9
+    tag: 0.5.15
     registry: "nexus3.o-ran-sc.org:10002/o-ran-sc" #"ranco-dev-tools.eastus.cloudapp.azure.com:10001"
   dataVolSize: 100Mi
   storageClassName: local-storage

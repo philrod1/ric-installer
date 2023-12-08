@@ -107,7 +107,7 @@ dbaas:
     image:
       registry: "nexus3.o-ran-sc.org:10002/o-ran-sc"
       name: ric-plt-dbaas
-      tag: 0.6.2
+      tag: 0.6.3
     enableHighAvailability: false
     # Enable pod anti affinity only if you have more than 3 k8s nodes
     enablePodAntiAffinity: false
@@ -118,7 +118,7 @@ e2mgr:
     image:
       registry: "nexus3.o-ran-sc.org:10002/o-ran-sc"
       name: ric-plt-e2mgr
-      tag: 6.0.1
+      tag: 6.0.2
     privilegedmode: false
     globalRicId:
       ricId: "AACCE"
@@ -159,14 +159,14 @@ rtmgr:
     image:
       registry: "nexus3.o-ran-sc.org:10002/o-ran-sc"
       name: ric-plt-rtmgr
-      tag: 0.9.4
+      tag: 0.9.5
 
 submgr:
   submgr:
     image:
       registry: "nexus3.o-ran-sc.org:10002/o-ran-sc"
       name: ric-plt-submgr
-      tag: 0.9.5
+      tag: 0.10.7
 
 vespamgr:
   image:
@@ -179,14 +179,14 @@ o1mediator:
   image:
     registry: "nexus3.o-ran-sc.org:10002/o-ran-sc"
     name: ric-plt-o1
-    tag: 0.6.1
+    tag: 0.6.2
 
 
 alarmmanager:
   image:
     registry: "nexus3.o-ran-sc.org:10002/o-ran-sc"
     name: ric-plt-alarmmanager
-    tag: 0.5.14
+    tag: 0.5.15
 
 influxdb2:
   image:

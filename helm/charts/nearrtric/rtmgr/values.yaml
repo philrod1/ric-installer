@@ -18,9 +18,8 @@ rtmgr:
   imagePullPolicy: IfNotPresent
   image:
     name: ric-plt-rtmgr
-    tag: 0.3.8
+    tag: 0.9.5
     registry: "nexus3.o-ran-sc.org:10002/o-ran-sc"
-  
   rpe: rmrpush
   sbi: rmrpush
   sbiurl: 0.0.0.0

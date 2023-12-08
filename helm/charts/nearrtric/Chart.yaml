@@ -77,7 +77,7 @@ dependencies:
     condition: nearrtric.installVespamgr
 
   - name: xapp-onboarder
-    version: ~0.x
+    version: ~1.x
     repository: "@local"
     condition: nearrtric.installXappOnboarder
 
